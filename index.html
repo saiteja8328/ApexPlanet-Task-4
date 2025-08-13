@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sai Teja | Portfolio & Projects</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Madda Sai Teja</h1>
+    <p>Computer Science Student | AI & ML Enthusiast | Web Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#todo">To-Do</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Portfolio Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Passionate CSE student at Vel Tech University with a strong interest in AI and Machine Learning. I love building projects that blend creativity and functionality.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, Java (Basics), HTML, CSS, JavaScript</li>
+      <li><strong>Frameworks:</strong> Pandas, Matplotlib, Seaborn</li>
+      <li><strong>Databases:</strong> SQL, MongoDB (Basics)</li>
+      <li><strong>Tools:</strong> Git, GitHub, VS Code, Google Colab</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Portfolio Projects</h2>
+    <ul>
+      <li>✅ Portfolio Website (this site)</li>
+      <li>📝 To-Do App with LocalStorage</li>
+      <li>🛒 Product Listing Page</li>
+      <li>🎮 GameHub: Multi-game Python app</li>
+    </ul>
+  </section>
+
+  <!-- To-Do List Section -->
+  <section id="todo">
+    <h2>To-Do List App</h2>
+    <input type="text" id="taskInput" placeholder="Enter a task" />
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+  </section>
+
+  <!-- Product Listing Section -->
+  <section id="products">
+    <h2>Product Listing</h2>
+    <label>Filter by category:</label>
+    <select id="filter" onchange="filterProducts()">
+      <option value="all">All</option>
+      <option value="electronics">Electronics</option>
+      <option value="clothing">Clothing</option>
+    </select>
+
+    <label>Sort by price:</label>
+    <select id="sort" onchange="sortProducts()">
+      <option value="asc">Low to High</option>
+      <option value="desc">High to Low</option>
+    </select>
+
+    <div id="productContainer"></div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:saiteja83285@gmail.com">saiteja83285@gmail.com</a></p>
+    <p>Phone: +91 8328558901</p>
+    <p>
+      <a href="https://www.linkedin.com/in/sai-teja-m-4a541b353/" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/saiteja8328" target="_blank">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Madda Sai Teja. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
